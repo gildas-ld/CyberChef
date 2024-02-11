@@ -5,9 +5,9 @@
  * @license Apache-2.0
  */
 
+import forge from "node-forge";
 import Operation from "../Operation.mjs";
 import OperationError from "../errors/OperationError.mjs";
-import forge from "node-forge";
 import { MD_ALGORITHMS } from "../lib/RSA.mjs";
 
 /**
@@ -60,7 +60,7 @@ class RSASign extends Operation {
             const privateKey = forge.pki.decryptRsaPrivateKey(key, password);
             // Generate message hash
             const md = MD_ALGORITHMS[mdAlgo].create();
-            md.update(input, "utf8");
+            md.update(input, "raw");
             // Sign message hash
             const sig = privateKey.sign(md);
             return sig;

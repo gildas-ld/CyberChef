@@ -6,8 +6,8 @@
 
 import Operation from "../Operation.mjs";
 import Utils from "../Utils.mjs";
-import {fromHex} from "../lib/Hex.mjs";
 import OperationError from "../errors/OperationError.mjs";
+import { fromHex } from "../lib/Hex.mjs";
 
 /**
  * Hamming Distance operation

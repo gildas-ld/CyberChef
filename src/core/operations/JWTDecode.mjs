@@ -4,9 +4,9 @@
  * @license Apache-2.0
  */
 
-import Operation from "../Operation.mjs";
 import jwt from "jsonwebtoken";
 import OperationError from "../errors/OperationError.mjs";
+import Operation from "../Operation.mjs";
 
 /**
  * JWT Decode operation

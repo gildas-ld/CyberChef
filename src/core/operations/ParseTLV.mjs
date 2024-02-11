@@ -6,8 +6,8 @@
  */
 
 import Operation from "../Operation.mjs";
-import TLVParser from "../lib/TLVParser.mjs";
 import OperationError from "../errors/OperationError.mjs";
+import TLVParser from "../lib/TLVParser.mjs";
 
 /**
  * Parse TLV operation

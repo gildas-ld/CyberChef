@@ -1,5 +1,5 @@
 import sm from "sitemap";
-import OperationConfig from "../../core/config/OperationConfig.json" assert {type: "json"};
+import OperationConfig from "../../core/config/OperationConfig.json" assert { type: "json" };
 
 
 /**
@@ -11,7 +11,7 @@ import OperationConfig from "../../core/config/OperationConfig.json" assert {typ
  */
 
 const smStream = new sm.SitemapStream({
-    hostname: "https://gchq.github.io/CyberChef",
+    hostname: "https://gildas-ld.github.io/CyberChef",
 });
 
 smStream.write({

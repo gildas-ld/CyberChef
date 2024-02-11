@@ -5,9 +5,9 @@
  * @license Apache-2.0
  */
 
-import Operation from "../Operation.mjs";
 import forge from "node-forge";
 import { cryptNotice } from "../lib/Crypt.mjs";
+import Operation from "../Operation.mjs";
 
 /**
  * Generate RSA Key Pair operation

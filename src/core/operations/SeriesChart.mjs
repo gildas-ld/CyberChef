@@ -7,7 +7,7 @@
 
 import * as d3temp from "d3";
 import * as nodomtemp from "nodom";
-import { getSeriesValues, RECORD_DELIMITER_OPTIONS, FIELD_DELIMITER_OPTIONS } from "../lib/Charts.mjs";
+import { FIELD_DELIMITER_OPTIONS, getSeriesValues, RECORD_DELIMITER_OPTIONS } from "../lib/Charts.mjs";
 
 import Operation from "../Operation.mjs";
 import Utils from "../Utils.mjs";
@@ -72,7 +72,7 @@ class SeriesChart extends Operation {
             fieldDelimiter = Utils.charRep(args[1]),
             xLabel = args[2],
             pipRadius = args[3],
-            // Escape HTML from all colours to prevent reflected XSS. See https://github.com/gchq/CyberChef/issues/1265
+            // Escape HTML from all colours to prevent reflected XSS. See https://github.com/gildas-ld/CyberChef/issues/1265
             seriesColours = args[4].split(",").map((colour) => {
                 return Utils.escapeHtml(colour);
             }),

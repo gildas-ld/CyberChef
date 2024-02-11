@@ -1,5 +1,5 @@
-import Utils from "../Utils.mjs";
 import protobuf from "protobufjs";
+import Utils from "../Utils.mjs";
 
 /**
  * Protobuf lib. Contains functions to decode protobuf serialised

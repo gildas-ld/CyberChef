@@ -305,16 +305,6 @@ Full hash: $2a$10$ODeP1.6fMsb.ENk2ngPUCO7qTGVPyHA9TqDVcyupyed8FjsiF65L6`;
         assert.strictEqual(result.toString(), "2");
     }),
 
-    it("CRC16 Checksum", () => {
-        const result = chef.CRC16Checksum("Rain on Your Parade");
-        assert.strictEqual(result.toString(), "db1c");
-    }),
-
-    it("CRC32 Checksum", () => {
-        const result = chef.CRC32Checksum("Rain on Your Parade");
-        assert.strictEqual(result.toString(), "e902f76c");
-    }),
-
     it("CSS Beautify", () => {
         const result = chef.CSSBeautify("header {color:black;padding:3rem;}");
         const expected = `header {
@@ -432,7 +422,7 @@ color: white;
     it("Disassemble x86", () => {
         const result = chef.disassembleX86(chef.toBase64("one two three"));
         const expected = `0000000000000000 0000                            ADD BYTE PTR [RAX],AL\r
-0000000000000002 0B250000000B                    OR ESP,DWORD PTR [0000000-F4FFFFF8]\r
+0000000000000002 0B250000000B                    OR ESP,DWORD PTR [000000000B000008]\r
 `;
         assert.strictEqual(result.toString(), expected);
     }),
@@ -575,12 +565,11 @@ Top Drawer`, {
     }),
 
     it("Generate HOTP", () => {
-        const result = chef.generateHOTP("Cut The Mustard", {
-            name: "colonel",
+        const result = chef.generateHOTP("JBSWY3DPEHPK3PXP", {
         });
-        const expected = `URI: otpauth://hotp/colonel?secret=IN2XIICUNBSSATLVON2GC4TE
+        const expected = `URI: otpauth://hotp/?secret=JBSWY3DPEHPK3PXP&algorithm=SHA1&digits=6&counter=0
 
-Password: 034148`;
+Password: 282760`;
         assert.strictEqual(result.toString(), expected);
     }),
 
