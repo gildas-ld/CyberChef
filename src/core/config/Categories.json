@@ -14,6 +14,8 @@
             "From Charcode",
             "To Decimal",
             "From Decimal",
+            "To Float",
+            "From Float",
             "To Binary",
             "From Binary",
             "To Octal",
@@ -70,6 +72,7 @@
             "Avro to JSON",
             "CBOR Encode",
             "CBOR Decode",
+            "Caret/M-decode",
             "Rison Encode",
             "Rison Decode"
         ]
@@ -85,6 +88,8 @@
             "DES Decrypt",
             "Triple DES Encrypt",
             "Triple DES Decrypt",
+            "Fernet Encrypt",
+            "Fernet Decrypt",
             "LS47 Encrypt",
             "LS47 Decrypt",
             "RC2 Encrypt",
@@ -92,6 +97,8 @@
             "RC4",
             "RC4 Drop",
             "ChaCha",
+            "Salsa20",
+            "XSalsa20",
             "Rabbit",
             "SM4 Encrypt",
             "SM4 Decrypt",
@@ -148,7 +155,8 @@
             "Typex",
             "Lorenz",
             "Colossus",
-            "SIGABA"
+            "SIGABA",
+            "XXTEA"
         ]
     },
     {
@@ -160,6 +168,8 @@
             "Hex to PEM",
             "Hex to Object Identifier",
             "Object Identifier to Hex",
+            "PEM to JWK",
+            "JWK to PEM",
             "Generate PGP Key Pair",
             "PGP Encrypt",
             "PGP Decrypt",
@@ -171,7 +181,14 @@
             "RSA Verify",
             "RSA Encrypt",
             "RSA Decrypt",
-            "Parse SSH Host Key"
+            "Generate ECDSA Key Pair",
+            "ECDSA Signature Conversion",
+            "ECDSA Sign",
+            "ECDSA Verify",
+            "Parse SSH Host Key",
+            "Parse CSR",
+            "Public Key from Certificate",
+            "Public Key from Private Key"
         ]
     },
     {
@@ -228,6 +245,8 @@
             "VarInt Decode",
             "JA3 Fingerprint",
             "JA3S Fingerprint",
+            "JA4 Fingerprint",
+            "JA4Server Fingerprint",
             "HASSH Client Fingerprint",
             "HASSH Server Fingerprint",
             "Format MAC addresses",
@@ -236,6 +255,7 @@
             "Encode NetBIOS Name",
             "Decode NetBIOS Name",
             "Defang URL",
+            "Fang URL",
             "Defang IP Addresses"
         ]
     },
@@ -311,6 +331,7 @@
             "To UNIX Timestamp",
             "Windows Filetime to UNIX Timestamp",
             "UNIX Timestamp to Windows Filetime",
+            "DateTime Delta",
             "Extract dates",
             "Get Time",
             "Sleep"
@@ -327,13 +348,15 @@
             "Extract domains",
             "Extract file paths",
             "Extract dates",
+            "Extract hashes",
             "Regular expression",
             "XPath expression",
             "JPath expression",
             "CSS selector",
             "Extract EXIF",
             "Extract ID3",
-            "Extract Files"
+            "Extract Files",
+            "RAKE"
         ]
     },
     {
@@ -374,7 +397,6 @@
             "SHA2",
             "SHA3",
             "SM3",
-            "MurmurHash3",
             "Keccak",
             "Shake",
             "RIPEMD",
@@ -399,6 +421,7 @@
             "Scrypt",
             "NT Hash",
             "LM Hash",
+            "MurmurHash3",
             "Fletcher-8 Checksum",
             "Fletcher-16 Checksum",
             "Fletcher-32 Checksum",
