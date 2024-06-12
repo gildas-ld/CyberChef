@@ -1,10 +1,10 @@
 /**
  * CyberChef - The Cyber Swiss Army Knife
  *
- * @copyright Crown Copyright 2016
+ * @copyright Crown Copyright 2016-2024
  * @license Apache-2.0
  *
- *   Copyright 2016 Crown Copyright
+ *   Copyright 2016-2024 Crown Copyright
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14893,6 +14893,10 @@ body {
     line-height: 0;
 }
 
+.hidden {
+    display: none;
+}
+
 .blur {
     color: transparent !important;
     text-shadow: rgba(0, 0, 0, 0.95) 0 0 10px !important;
@@ -15190,6 +15194,16 @@ span.btn img {
     margin: 0 !important;
     border-radius: 0 !important;
     border: none;
+}
+
+.op-count {
+    float: right;
+    color: #999;
+    color: var(--subtext-font-colour);
+    font-weight: normal;
+    font-size: xx-small;
+    opacity: 0.5;
+    padding-left: .5em;
 }
 
 /**

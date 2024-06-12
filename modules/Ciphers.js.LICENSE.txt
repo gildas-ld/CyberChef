@@ -120,6 +120,14 @@
  */
 
 /**
+ * @author devcydo [devcydo@gmail.com]
+ * @author Ma Bingyao [mabingyao@gmail.com]
+ * @author n1474335 [n1474335@gmail.com]
+ * @copyright Crown Copyright 2024
+ * @license Apache-2.0
+ */
+
+/**
  * @author dolphinOnKeys [robin@weird.io]
  * @copyright Crown Copyright 2022
  * @license Apache-2.0
@@ -246,10 +254,10 @@
 /**
  * CyberChef - The Cyber Swiss Army Knife
  *
- * @copyright Crown Copyright 2016
+ * @copyright Crown Copyright 2016-2024
  * @license Apache-2.0
  *
- *   Copyright 2016 Crown Copyright
+ *   Copyright 2016-2024 Crown Copyright
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -322,6 +330,18 @@
  * @author n1474335 [n1474335@gmail.com]
  * @copyright Crown Copyright 2018
  * @license Apache-2.0
+ */
+
+/**
+ * XXTEA library
+ *
+ * Encryption Algorithm Authors:
+ *     David J. Wheeler
+ *     Roger M. Needham
+ *
+ * @author Ma Bingyao [mabingyao@gmail.com]
+ * @author n1474335 [n1474335@gmail.com]
+ * @license MIT
  */
 
 /** @preserve
