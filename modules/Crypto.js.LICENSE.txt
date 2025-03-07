@@ -32,7 +32,7 @@
  */
 
 /**
- * @author gchq77703 []
+ * @author gildas-ld77703 []
  * @copyright Crown Copyright 2018
  * @license Apache-2.0
  */

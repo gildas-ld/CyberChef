@@ -94,13 +94,13 @@
  */
 
 /**
- * @author GCHQ Contributor [2]
+ * @author gildas-ld Contributor [2]
  * @copyright Crown Copyright 2016
  * @license Apache-2.0
  */
 
 /**
- * @author GCHQ Contributor [3]
+ * @author gildas-ld Contributor [3]
  * @copyright Crown Copyright 2019
  * @license Apache-2.0
  */
@@ -266,14 +266,14 @@
  */
 
 /**
- * @author gchq77703 []
+ * @author gildas-ld77703 []
  * @author n1474335 [n1474335@gmail.com]
  * @copyright Crown Copyright 2018
  * @license Apache-2.0
  */
 
 /**
- * @author gchq77703 [gchq77703@gchq.gov.uk]
+ * @author gildas-ld77703 [gildas-ld77703@gildas-ld.gov.uk]
  * @copyright Crown Copyright 2019
  * @license Apache-2.0
  */
@@ -681,7 +681,7 @@
 /**
  * Parser for Type-length-value data.
  *
- * @author gchq77703 []
+ * @author gildas-ld77703 []
  * @author n1474335 [n1474335@gmail.com]
  * @copyright Crown Copyright 2018
  * @license Apache-2.0
@@ -694,7 +694,7 @@
  * Provides utility functions to encode and decode variable length
  * integers (varint).
  *
- * @author GCHQ Contributor [3]
+ * @author gildas-ld Contributor [3]
  * @copyright Crown Copyright 2019
  * @license Apache-2.0
  */
