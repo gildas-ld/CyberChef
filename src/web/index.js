@@ -40,19 +40,19 @@ function main() {
     ];
 
     const defaultOptions = {
-        updateUrl:           true,
+        updateUrl:           false,
         showHighlighter:     true,
         wordWrap:            true,
         showErrors:          true,
         errorTimeout:        4000,
         attemptHighlight:    true,
-        theme:               "classic",
-        useMetaKey:          false,
-        logLevel:            "info",
+        theme:               "dark",
+        useMetaKey:          true,
+        logLevel:            "warn",
         autoMagic:           true,
         imagePreview:        true,
         syncTabs:            true,
-        showCatCount:        false,
+        showCatCount:        true,
     };
 
     document.removeEventListener("DOMContentLoaded", main, false);
@@ -67,4 +67,3 @@ window.compileMessage = COMPILE_MSG;
 window.CanvasComponents = CanvasComponents;
 
 document.addEventListener("DOMContentLoaded", main, false);
-

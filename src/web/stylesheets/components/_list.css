@@ -46,7 +46,7 @@
     float: right;
     color: var(--subtext-font-colour);
     font-weight: normal;
-    font-size: xx-small;
-    opacity: 0.5;
+    font-size: x-small;
+    opacity: 0.9;
     padding-left: .5em;
 }

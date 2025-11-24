@@ -230,7 +230,7 @@ class StatusBarPanel {
                 val.classList.add("pulse");
                 setTimeout(() => {
                     val.classList.remove("pulse");
-                }, 2000);
+                }, 250);
                 break;
             case 0: // Unset
             case 2: // Manually set
@@ -266,7 +266,7 @@ class StatusBarPanel {
                 val.classList.add("pulse");
                 setTimeout(() => {
                     val.classList.remove("pulse");
-                }, 2000);
+                }, 250);
                 break;
             case 0: // Unset
             case 2: // Manually set

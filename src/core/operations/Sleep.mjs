@@ -26,7 +26,7 @@ class Sleep extends Operation {
             {
                 "name": "Time (ms)",
                 "type": "number",
-                "value": 1000
+                "value": 250
             }
         ];
     }

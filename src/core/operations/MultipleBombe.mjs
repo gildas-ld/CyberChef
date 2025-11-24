@@ -7,10 +7,10 @@
  * @license Apache-2.0
  */
 
-import Operation from "../Operation.mjs";
 import OperationError from "../errors/OperationError.mjs";
 import { BombeMachine } from "../lib/Bombe.mjs";
-import { ROTORS, ROTORS_FOURTH, REFLECTORS, Reflector } from "../lib/Enigma.mjs";
+import { REFLECTORS, ROTORS, ROTORS_FOURTH, Reflector } from "../lib/Enigma.mjs";
+import Operation from "../Operation.mjs";
 import { isWorkerEnvironment } from "../Utils.mjs";
 
 
@@ -55,7 +55,7 @@ class MultipleBombe extends Operation {
 
         this.name = "Multiple Bombe";
         this.module = "Bletchley";
-        this.description = "Emulation of the Bombe machine used to attack Enigma. This version carries out multiple Bombe runs to handle unknown rotor configurations.<br><br>You should test your menu on the single Bombe operation before running it here. See the description of the Bombe operation for instructions on choosing a crib.<br><br>More detailed descriptions of the Enigma, Typex and Bombe operations <a href='https://github.com/gchq/CyberChef/wiki/Enigma,-the-Bombe,-and-Typex'>can be found here</a>.";
+        this.description = "Emulation of the Bombe machine used to attack Enigma. This version carries out multiple Bombe runs to handle unknown rotor configurations.<br><br>You should test your menu on the single Bombe operation before running it here. See the description of the Bombe operation for instructions on choosing a crib.<br><br>More detailed descriptions of the Enigma, Typex and Bombe operations <a href='https://github.com/gildas-ld/CyberChef/wiki/Enigma,-the-Bombe,-and-Typex'>can be found here</a>.";
         this.infoURL = "https://wikipedia.org/wiki/Bombe";
         this.inputType = "string";
         this.outputType = "JSON";

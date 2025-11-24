@@ -8,11 +8,11 @@
 
 /* eslint no-console: ["off"] */
 
-import prompt from "prompt";
 import colors from "colors";
+import fs from "fs";
 import path from "path";
-import fs  from "fs";
 import process from "process";
+import prompt from "prompt";
 
 const dir = path.join(process.cwd() + "/src/core/config/");
 if (!fs.existsSync(dir)) {
@@ -106,9 +106,9 @@ const getFeature = function() {
                 }
 
                 if (feature.id.length > 10) {
-                    commitIDs.push(`[${id}]: https://github.com/gchq/CyberChef/commit/${feature.id}`);
+                    commitIDs.push(`[${id}]: https://github.com/gildas-ld/CyberChef/commit/${feature.id}`);
                 } else {
-                    prIDs.push(`[#${feature.id}]: https://github.com/gchq/CyberChef/pull/${feature.id}`);
+                    prIDs.push(`[#${feature.id}]: https://github.com/gildas-ld/CyberChef/pull/${feature.id}`);
                 }
             });
 
@@ -116,7 +116,7 @@ const getFeature = function() {
             changelogData = changelogData.replace(/## Details\n\n/, "## Details\n\n" + message + "\n");
 
             // Tag
-            const newTag = `[${newVersion[0]}.${newVersion[1]}.${newVersion[2]}]: https://github.com/gchq/CyberChef/releases/tag/v${newVersion[0]}.${newVersion[1]}.${newVersion[2]}\n`;
+            const newTag = `[${newVersion[0]}.${newVersion[1]}.${newVersion[2]}]: https://github.com/gildas-ld/CyberChef/releases/tag/v${newVersion[0]}.${newVersion[1]}.${newVersion[2]}\n`;
             changelogData = changelogData.replace(/\n\n(\[\d+\.\d+\.\d+\]: https)/, "\n\n" + newTag + "$1");
 
             // Author

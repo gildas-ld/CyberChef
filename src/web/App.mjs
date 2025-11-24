@@ -4,14 +4,14 @@
  * @license Apache-2.0
  */
 
+import cptable from "codepage";
+import moment from "moment-timezone";
+import Split from "split.js";
 import Utils, { debounce } from "../core/Utils.mjs";
-import {fromBase64} from "../core/lib/Base64.mjs";
-import Manager from "./Manager.mjs";
+import { fromBase64 } from "../core/lib/Base64.mjs";
 import HTMLCategory from "./HTMLCategory.mjs";
 import HTMLOperation from "./HTMLOperation.mjs";
-import Split from "split.js";
-import moment from "moment-timezone";
-import cptable from "codepage";
+import Manager from "./Manager.mjs";
 
 
 /**
@@ -99,7 +99,7 @@ class App {
 
             // Bake initial input
             this.manager.input.bakeAll();
-        }.bind(this), 1000);
+        }.bind(this), 250);
 
         // Clear the loading message interval
         clearInterval(window.loadingMsgsInt);
@@ -648,9 +648,9 @@ class App {
         else if (prev[1] > 0) prev[1]--;
         else prev[0]--;
 
-        // const compareURL = `https://github.com/gchq/CyberChef/compare/v${prev.join(".")}...v${PKG_VERSION}`;
+        // const compareURL = `https://github.com/gildas-ld/CyberChef/compare/v${prev.join(".")}...v${PKG_VERSION}`;
 
-        let compileInfo = `<a href='https://github.com/gchq/CyberChef/blob/master/CHANGELOG.md'>Last build: ${timeSinceCompile.substr(0, 1).toUpperCase() + timeSinceCompile.substr(1)} ago</a>`;
+        let compileInfo = `<a href='https://github.com/gildas-ld/CyberChef/blob/master/CHANGELOG.md'>Last build: ${timeSinceCompile.substr(0, 1).toUpperCase() + timeSinceCompile.substr(1)} ago</a>`;
 
         if (window.compileMessage !== "") {
             compileInfo += " - " + window.compileMessage;
