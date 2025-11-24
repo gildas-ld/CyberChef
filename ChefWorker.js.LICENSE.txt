@@ -56,13 +56,13 @@
 
 /**
  *
- * @licstart  The following is the entire license notice for the JavaScript code in this file.
+ * @licstart  The following is the entire license notice for the JavaScript code in this file. 
  *
  * ES6 polyfills that use native implementation if available and do not pollute the global namespace
  o*
  * Copyright (c) 2015-2016 University Of Helsinki (The National Library Of Finland)
  *
- * This file is part of es6-polyfills
+ * This file is part of es6-polyfills 
  *
  * es6-polyfills is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
@@ -96,13 +96,13 @@
  */
 
 /**
- * @author gildas-ld Contributor [2]
+ * @author GCHQ Contributor [2]
  * @copyright Crown Copyright 2016
  * @license Apache-2.0
  */
 
 /**
- * @author gildas-ld Contributor [3]
+ * @author GCHQ Contributor [3]
  * @copyright Crown Copyright 2019
  * @license Apache-2.0
  */
@@ -280,14 +280,14 @@
  */
 
 /**
- * @author gildas-ld77703 []
+ * @author gchq77703 []
  * @author n1474335 [n1474335@gmail.com]
  * @copyright Crown Copyright 2018
  * @license Apache-2.0
  */
 
 /**
- * @author gildas-ld77703 [gildas-ld77703@gildas-ld.gov.uk]
+ * @author gchq77703 [gchq77703@gchq.gov.uk]
  * @copyright Crown Copyright 2019
  * @license Apache-2.0
  */
@@ -708,7 +708,7 @@
 /**
  * Parser for Type-length-value data.
  *
- * @author gildas-ld77703 []
+ * @author gchq77703 []
  * @author n1474335 [n1474335@gmail.com]
  * @copyright Crown Copyright 2018
  * @license Apache-2.0
@@ -721,7 +721,7 @@
  * Provides utility functions to encode and decode variable length
  * integers (varint).
  *
- * @author gildas-ld Contributor [3]
+ * @author GCHQ Contributor [3]
  * @copyright Crown Copyright 2019
  * @license Apache-2.0
  */

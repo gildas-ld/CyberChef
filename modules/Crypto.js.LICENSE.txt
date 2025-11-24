@@ -29,6 +29,12 @@
  */
 
 /**
+ * @author Thomas Weißschuh [thomas@t-8ch.de]
+ * @copyright Crown Copyright 2023
+ * @license Apache-2.0
+ */
+
+/**
  * @author brun0ne [brunonblok@gmail.com]
  * @copyright Crown Copyright 2022
  * @license Apache-2.0
@@ -47,7 +53,7 @@
  */
 
 /**
- * @author gildas-ld77703 []
+ * @author gchq77703 []
  * @copyright Crown Copyright 2018
  * @license Apache-2.0
  */
@@ -174,6 +180,12 @@
 
 /**
  * @author n1474335 [n1474335@gmail.com]
+ * @copyright Crown Copyright 2023
+ * @license Apache-2.0
+ */
+
+/**
+ * @author n1474335 [n1474335@gmail.com]
  * @copyright Crown Copyright 2024
  * @license Apache-2.0
  */
@@ -262,6 +274,14 @@
  *
  * @author n1474335 [n1474335@gmail.com]
  *
+ * @copyright Crown Copyright 2016
+ * @license Apache-2.0
+ */
+
+/**
+ * Hexadecimal functions.
+ *
+ * @author n1474335 [n1474335@gmail.com]
  * @copyright Crown Copyright 2016
  * @license Apache-2.0
  */

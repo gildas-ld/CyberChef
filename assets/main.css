@@ -1423,7 +1423,7 @@ pre code {
   border: 1px solid rgba(0, 0, 0, 0.26);
   border-radius: 0;
   box-shadow: none;
-  transition: border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out; }
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
 
 @media (prefers-reduced-motion: reduce) {
     .form-control, .custom-file-control {
@@ -1836,7 +1836,7 @@ textarea.form-control, textarea.custom-file-control {
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.125rem;
-  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out, border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out; }
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
 
 @media (prefers-reduced-motion: reduce) {
     .btn, .custom-file-control::before {
@@ -2344,7 +2344,7 @@ input[type="button"].btn-block {
   width: 100%; }
 
 .fade {
-  transition: opacity 0.1s linear; }
+  transition: opacity 0.15s linear; }
 
 @media (prefers-reduced-motion: reduce) {
     .fade {
@@ -2360,7 +2360,7 @@ input[type="button"].btn-block {
   position: relative;
   height: 0;
   overflow: hidden;
-  transition: height 0.1s ease; }
+  transition: height 0.35s ease; }
 
 @media (prefers-reduced-motion: reduce) {
     .collapsing {
@@ -2987,7 +2987,7 @@ input[type="button"].btn-block {
     height: calc(1rem - 4px);
     background-color: #adb5bd;
     border-radius: 0.5rem;
-    transition: transform 0.1s ease-in-out, background-color 0.1s ease-in-out, border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out; }
+    transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
 
 @media (prefers-reduced-motion: reduce) {
       .custom-switch .custom-control-label::after {
@@ -3146,8 +3146,8 @@ input[type="button"].btn-block {
     border: 0;
     border-radius: 1rem;
     box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
-    -webkit-transition: background-color 0.1s ease-in-out, border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
-    transition: background-color 0.1s ease-in-out, border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     -webkit-appearance: none;
             appearance: none; }
 
@@ -3176,8 +3176,8 @@ input[type="button"].btn-block {
     border: 0;
     border-radius: 1rem;
     box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
-    -moz-transition: background-color 0.1s ease-in-out, border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
-    transition: background-color 0.1s ease-in-out, border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     -moz-appearance: none;
          appearance: none; }
 
@@ -3209,8 +3209,8 @@ input[type="button"].btn-block {
     border: 0;
     border-radius: 1rem;
     box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
-    -ms-transition: background-color 0.1s ease-in-out, border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
-    transition: background-color 0.1s ease-in-out, border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    -ms-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     appearance: none; }
 
 @media (prefers-reduced-motion: reduce) {
@@ -3258,7 +3258,7 @@ input[type="button"].btn-block {
 .custom-control-label::before,
 .custom-file-label,
 .custom-select {
-  transition: background-color 0.1s ease-in-out, border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out; }
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
 
 @media (prefers-reduced-motion: reduce) {
     .custom-control-label::before,
@@ -3918,7 +3918,7 @@ input[type="button"].btn-block {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.125rem;
-  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out, border-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out; }
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
 
 @media (prefers-reduced-motion: reduce) {
     .badge {
@@ -4184,7 +4184,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   text-align: center;
   white-space: nowrap;
   background-color: #2196f3;
-  transition: width 0.1s ease; }
+  transition: width 0.6s ease; }
 
 @media (prefers-reduced-motion: reduce) {
     .progress-bar {
@@ -4547,7 +4547,7 @@ a.close.disabled {
   pointer-events: none; }
 
 .modal.fade .modal-dialog {
-    transition: transform 0.1s ease-out;
+    transition: transform 0.3s ease-out;
     transform: translate(0, -50px); }
 
 @media (prefers-reduced-motion: reduce) {
@@ -4947,7 +4947,7 @@ a.close.disabled {
   width: 100%;
   margin-right: -100%;
   backface-visibility: hidden;
-  transition: transform 0.1s ease-in-out; }
+  transition: transform 0.6s ease-in-out; }
 
 @media (prefers-reduced-motion: reduce) {
     .carousel-item {
@@ -4981,7 +4981,7 @@ a.close.disabled {
 .carousel-fade .active.carousel-item-right {
   z-index: 0;
   opacity: 0;
-  transition: 0s 0.1s opacity; }
+  transition: 0s 0.6s opacity; }
 
 @media (prefers-reduced-motion: reduce) {
     .carousel-fade .active.carousel-item-left,
@@ -5001,7 +5001,7 @@ a.close.disabled {
   color: #fff;
   text-align: center;
   opacity: 0.5;
-  transition: opacity 0.1s ease; }
+  transition: opacity 0.15s ease; }
 
 @media (prefers-reduced-motion: reduce) {
     .carousel-control-prev,
@@ -5062,7 +5062,7 @@ a.close.disabled {
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     opacity: .5;
-    transition: opacity 0.1s ease; }
+    transition: opacity 0.6s ease; }
 
 @media (prefers-reduced-motion: reduce) {
       .carousel-indicators li {
@@ -7654,7 +7654,7 @@ button:focus {
   width: 100%;
   max-height: 1000px;
   transform: translateZ(0);
-  transition-duration: 0.1s;
+  transition-duration: 0.2s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
 
 .bmd-layout-content {
@@ -7665,7 +7665,7 @@ button:focus {
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  transition-duration: 0.1s;
+  transition-duration: 0.2s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
 
 .bmd-layout-spacer {
@@ -7681,7 +7681,7 @@ button:focus {
   visibility: hidden;
   background-color: transparent;
   transition-property: background-color;
-  transition-duration: 0.1s;
+  transition-duration: 0.2s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
 
 @supports (pointer-events: auto) {
@@ -7703,7 +7703,7 @@ button:focus {
   background-color: transparent;
   border: 0;
   outline: 0;
-  transition: box-shadow 0.1s cubic-bezier(0.4, 0, 1, 1), background-color 0.1s cubic-bezier(0.4, 0, 0.2, 1), color 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   will-change: box-shadow, transform;
   color: rgba(0, 0, 0, 0.87);
   background-color: transparent;
@@ -10511,7 +10511,7 @@ label.checkbox-inline {
 
 .is-focused .checkbox label .checkbox-decorator .check::before, .is-focused
         label.checkbox-inline .checkbox-decorator .check::before {
-          animation: checkbox-off 0.1s forwards; }
+          animation: checkbox-off 0.3s forwards; }
 
 .checkbox label input[type=checkbox],
   label.checkbox-inline input[type=checkbox] {
@@ -10538,7 +10538,7 @@ label.checkbox-inline {
     label.checkbox-inline input[type=checkbox]:checked + .checkbox-decorator .check::before {
       color: #2196f3;
       box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 032px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px;
-      animation: checkbox-on 0.1s forwards; }
+      animation: checkbox-on 0.3s forwards; }
 
 .checkbox label input[type=checkbox][disabled] + .checkbox-decorator .check::after,
     .checkbox label input[type=checkbox][disabled] .check::after,
@@ -10797,7 +10797,7 @@ fieldset[disabled][disabled] .custom-file-control .form-control, fieldset[disabl
     background-position: 0%;
     background-size: 4.25rem 0.875rem;
     border-radius: 2.125rem;
-    transition: background-position 0.1s ease-in; }
+    transition: background-position 0.2s ease-in; }
 
 .switch label .bmd-switch-track::after {
       position: absolute;
@@ -10811,7 +10811,7 @@ fieldset[disabled][disabled] .custom-file-control .form-control, fieldset[disabl
       background: #f1f1f1;
       border-radius: 100%;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-      transition: left 0.1s ease-in, background-color 0.1s ease-in, transform 0.1s ease;
+      transition: left 0.2s ease-in, background-color 0.2s ease-in, transform 0.3s ease;
       transform: translateY(-50%); }
 
 .switch label .bmd-switch-track:active::after {
@@ -10866,7 +10866,7 @@ label.radio-inline {
       border: 0.125rem solid rgba(0, 0, 0, 0.54);
       border-radius: 50%;
       transition: border-color ease .28s;
-      transition-duration: 0.1s; }
+      transition-duration: 0.2s; }
 
 .radio label .bmd-radio::before,
     label.radio-inline .bmd-radio::before {
@@ -10977,7 +10977,7 @@ form {
   .bmd-form-group.is-focused .form-control,
   .bmd-form-group.is-focused .custom-file-control {
     background-size: 100% 100%, 100% 100%;
-    transition-duration: 0.1s; }
+    transition-duration: 0.3s; }
 
 .bmd-help {
   position: absolute;
@@ -12115,7 +12115,7 @@ fieldset[disabled][disabled] .has-danger .form-control, fieldset[disabled][disab
   .bmd-form-group [class*=' bmd-label'] {
     position: absolute;
     pointer-events: none;
-    transition: 0.1s ease all; }
+    transition: 0.3s ease all; }
 
 .bmd-form-group [class^='bmd-label'].bmd-label-floating,
     .bmd-form-group [class*=' bmd-label'].bmd-label-floating {
@@ -12143,7 +12143,7 @@ fieldset[disabled][disabled] .has-danger .form-control, fieldset[disabled][disab
       display: block; }
 
 .bmd-form-group.bmd-collapse-inline .collapsing {
-      transition-duration: 0.1s;
+      transition-duration: 0.2s;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
 
 .bmd-form-group input::-webkit-input-placeholder {
@@ -12845,7 +12845,7 @@ h6 {
   transform: scale(0);
   transform-origin: 0 0;
   will-change: transform, opacity;
-  transition: transform 0.1s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.1s cubic-bezier(0.4, 0, 0.2, 1); }
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1); }
 
 @media (min-width: 768px) {
     .dropdown-menu {
@@ -12853,7 +12853,7 @@ h6 {
 
 .dropdown-menu.showing {
     animation-name: bmd-dropdown-animation;
-    animation-duration: 0.1s;
+    animation-duration: 0.3s;
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
 
@@ -12941,7 +12941,7 @@ h6 {
   will-change: transform;
   transform-style: preserve-3d;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-  transition-duration: 0.1s;
+  transition-duration: 0.2s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
 
 .bmd-layout-drawer > * {
@@ -13331,7 +13331,7 @@ h6 {
 
 .ripple-container .ripple-decorator.ripple-on {
       opacity: 0.1;
-      transition: opacity 0.1s ease-in 0s, transform 0.1s cubic-bezier(0.4, 0, 0.2, 1) 0.1s; }
+      transition: opacity 0.15s ease-in 0s, transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0.1s; }
 
 .ripple-container .ripple-decorator.ripple-out {
       opacity: 0;
@@ -13352,7 +13352,7 @@ h6 {
   min-width: 100%;
   max-height: 0;
   opacity: 0;
-  transition: transform 0.1s cubic-bezier(0, 0, 0.2, 1), opacity 0s 0.1s, max-height 0.1s;
+  transition: transform 0.25s cubic-bezier(0, 0, 0.2, 1), opacity 0s 0.25s, max-height 0.25s;
   transform: translateY(100%); }
 
 .snackbar.toast .snackbar-content {
@@ -13373,7 +13373,7 @@ h6 {
 .snackbar.snackbar-opened {
   max-height: 100px;
   opacity: 1;
-  transition: transform 0.1s cubic-bezier(0, 0, 0.2, 1), opacity 0s 0s, max-height 0.1s;
+  transition: transform 0.25s cubic-bezier(0, 0, 0.2, 1), opacity 0s 0s, max-height 0.25s;
   transform: translateY(0%); }
 
 @media (min-width: 576px) {
@@ -14996,7 +14996,7 @@ body {
     border-top-color: var(--loader-outer-colour);
     border-radius: 50%;
 
-    animation: spin 0.1s linear infinite;
+    animation: spin 2s linear infinite;
 }
 
 .loader:before,
@@ -15014,7 +15014,7 @@ body {
     bottom: 5px;
     border-top-color: #e74c3c;
     border-top-color: var(--loader-middle-colour);
-    animation: spin 0.1s linear infinite;
+    animation: spin 3s linear infinite;
 }
 
 .loader:after {
@@ -15024,7 +15024,7 @@ body {
     bottom: 13px;
     border-top-color: #f9c922;
     border-top-color: var(--loader-inner-colour);
-    animation: spin 0.1s linear infinite;
+    animation: spin 1.5s linear infinite;
 }
 
 .loading-msg {
@@ -15055,60 +15055,60 @@ body {
 
 .loaded .loading-msg {
     opacity: 0;
-    transition: all 0.1s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .loaded #loader-wrapper {
     opacity: 0;
-    transition: all 0.1s 0.1s ease-out;
+    transition: all 0.5s 0.3s ease-out;
 }
 
 .loaded #rec-list li {
-	animation: bump 0.1s cubic-bezier(0.7, 0, 0.3, 1) both;
+	animation: bump 0.7s cubic-bezier(0.7, 0, 0.3, 1) both;
 }
 
 .loaded #content-wrapper {
-	animation-delay: 0.1s;
+	animation-delay: 0.10s;
 }
 
 .loaded #rec-list li:first-child {
-	animation-delay: 0.1s;
+	animation-delay: 0.20s;
 }
 
 .loaded #rec-list li:nth-child(2) {
-	animation-delay: 0.1s;
+	animation-delay: 0.25s;
 }
 
 .loaded #rec-list li:nth-child(3) {
-	animation-delay: 0.1s;
+	animation-delay: 0.30s;
 }
 
 .loaded #rec-list li:nth-child(4) {
-	animation-delay: 0.1s;
+	animation-delay: 0.35s;
 }
 
 .loaded #rec-list li:nth-child(5) {
-	animation-delay: 0.1s;
+	animation-delay: 0.40s;
 }
 
 .loaded #rec-list li:nth-child(6) {
-	animation-delay: 0.1s;
+	animation-delay: 0.45s;
 }
 
 .loaded #rec-list li:nth-child(7) {
-	animation-delay: 0.1s;
+	animation-delay: 0.50s;
 }
 
 .loaded #rec-list li:nth-child(8) {
-	animation-delay: 0.1s;
+	animation-delay: 0.55s;
 }
 
 .loaded #rec-list li:nth-child(9) {
-	animation-delay: 0.1s;
+	animation-delay: 0.60s;
 }
 
 .loaded #rec-list li:nth-child(10) {
-	animation-delay: 0.1s;
+	animation-delay: 0.65s;
 }
 
 /* Animations */
@@ -15201,8 +15201,8 @@ span.btn img {
     color: #999;
     color: var(--subtext-font-colour);
     font-weight: normal;
-    font-size: xx-small;
-    opacity: 0.5;
+    font-size: x-small;
+    opacity: 0.9;
     padding-left: .5em;
 }
 
@@ -16158,7 +16158,7 @@ input.toggle-string {
     justify-content: center;
     align-items: center;
 
-    transition: all 0.1s ease;
+    transition: all 0.5s ease;
 }
 
 #output-loader-animation {
@@ -16167,7 +16167,7 @@ input.toggle-string {
     width: 60%;
     height: 60%;
     top: 10%;
-    transition: all 0.1s ease;
+    transition: all 0.5s ease;
 }
 
 #output-loader .loading-msg {
@@ -16183,7 +16183,7 @@ input.toggle-string {
     top: 30%;
     position: relative;
 
-    transition: all 0.1s ease;
+    transition: all 0.5s ease;
 }
 
 .io-info {
@@ -16209,7 +16209,7 @@ input.toggle-string {
 #stale-indicator {
     opacity: 1;
     visibility: visible;
-    transition: margin 0s, opacity 0.1s;
+    transition: margin 0s, opacity 0.3s;
     margin-left: 5px;
     cursor: help;
 }
@@ -16222,7 +16222,7 @@ input.toggle-string {
 #magic {
     opacity: 1;
     visibility: visible;
-    transition: margin 0s 0.1s, opacity 0.1s 0.1s, visibility 0.1s 0.1s;
+    transition: margin 0s 0.3s, opacity 0.3s 0.3s, visibility 0.3s 0.3s;
     margin-left: 5px;
     margin-bottom: 5px;
 }
@@ -16230,7 +16230,7 @@ input.toggle-string {
 #magic.hidden,
 #stale-indicator.hidden {
     visibility: hidden;
-    transition: opacity 0.1s, margin 0.1s 0.1s, visibility 0.1s;
+    transition: opacity 0.3s, margin 0.3s 0.3s, visibility 0.3s;
     opacity: 0;
 }
 
@@ -16245,7 +16245,7 @@ input.toggle-string {
 
 .pulse {
     box-shadow: 0 0 0 0 rgba(90, 153, 212, .3);
-    animation: pulse 0.1s 1;
+    animation: pulse 1.5s 1;
 }
 
 .pulse:hover {
@@ -17095,3 +17095,4 @@ ul.json-dict, ol.json-array {
 .json-details[open] > .json-summary::before {
     transform: rotate(0deg);
 }
+

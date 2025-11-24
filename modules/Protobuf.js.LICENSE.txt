@@ -10,13 +10,13 @@
 /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
 
 /**
- * @author gildas-ld Contributor [3]
+ * @author GCHQ Contributor [3]
  * @copyright Crown Copyright 2019
  * @license Apache-2.0
  */
 
 /**
- * @author gildas-ld Contributor [3]
+ * @author GCHQ Contributor [3]
  * @copyright Crown Copyright 2021
  * @license Apache-2.0
  */
@@ -120,7 +120,7 @@
  * Provides utility functions to encode and decode variable length
  * integers (varint).
  *
- * @author gildas-ld Contributor [3]
+ * @author GCHQ Contributor [3]
  * @copyright Crown Copyright 2019
  * @license Apache-2.0
  */
